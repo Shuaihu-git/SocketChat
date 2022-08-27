@@ -182,6 +182,7 @@ public class ClientForm extends JFrame {
 
         lOnlines = new JList(items);
         scrollPane_2.setViewportView(lOnlines);
+
     }
     //登录
     private class BtnLoginActionListener implements ActionListener {

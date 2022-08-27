@@ -99,6 +99,7 @@ public class ServerForm extends JFrame {
         public void actionPerformed(ActionEvent arg0) {
             int port = Integer.parseInt(txtPort.getText().trim());
             try {
+
                 server = new ServerSocket(port);
                 listener = new ServerListener(server);
                 listener.start();

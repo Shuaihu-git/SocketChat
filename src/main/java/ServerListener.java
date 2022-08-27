@@ -19,6 +19,7 @@ public class ServerListener extends Thread {
         while(serverFlag){
             Socket s = null;
             try {
+
                 s = server.accept();
                 new SocketChat(s).start();
                 SocketMG.getsocketMG().setLog(s+"已登录");

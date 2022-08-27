@@ -25,7 +25,9 @@ public class ClientMG {
     }
     //    设置界面中的消息记录
     public void setLog(String str){
+
         cWin.txtLog.append(str+"\r\n");
+
     }
     public ClientChat getClientChat(){
         return cChat;

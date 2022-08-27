@@ -94,6 +94,7 @@ public class SocketChat extends Thread {
                     String strSend = "FILECANCELReturn|"+A;
                     SocketMG.getsocketMG().setLog(A+"拒收了"+comm[2]+"传输的文件");
                     sc.sendMSG(strSend);
+
                 }
 
             }

@@ -12,6 +12,7 @@ public class ClientChat extends Thread {
         this.socket = socket;
         UserName = userName;
         try {
+
             br = new BufferedReader(new InputStreamReader(socket.getInputStream(),
                     "UTF-8"));
             pw = new PrintWriter(new BufferedWriter(new OutputStreamWriter(

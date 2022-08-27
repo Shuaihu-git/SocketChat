@@ -119,5 +119,6 @@ public class SocketMG {
     //文件传输    发送者，接收者，内容
     public void sendFileTrans(String sender,SocketChat sTarget,String sMSG){
         sTarget.sendMSG("FILETRANS|"+sender+"|"+sMSG);
+
     }
 }

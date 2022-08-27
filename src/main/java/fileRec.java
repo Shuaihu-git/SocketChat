@@ -36,6 +36,7 @@ public class fileRec extends Thread{
                 len +=iread;
                 ClientMG.getClientMG().cWin.FileprogressBar.setValue(len);
                 dos.flush();
+
             }
             ClientMG.getClientMG().setLog("文件接收完毕！");
         } catch (Exception e) {

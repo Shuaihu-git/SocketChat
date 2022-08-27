@@ -45,6 +45,7 @@ public class FileListener extends Thread {
 
             //写入流的同时，设置进度条的进度
                 ClientMG.getClientMG().cWin.FileprogressBar.setValue(len);
+
             }
             ClientMG.getClientMG().setLog("文件传输完毕！");
             ClientMG.getClientMG().cWin.FileprogressBar.setValue(0);
