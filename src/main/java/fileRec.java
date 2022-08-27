@@ -20,7 +20,6 @@ public class fileRec extends Thread{
     public void run() {
         DataInputStream dis = null;
         DataOutputStream dos = null;
-
         //设置进度条属性
         ClientMG.getClientMG().cWin.FileprogressBar.setValue(0);
         ClientMG.getClientMG().cWin.FileprogressBar.setVisible(true);
@@ -51,6 +50,4 @@ public class fileRec extends Thread{
             }
         }
     }
-
-
 }
